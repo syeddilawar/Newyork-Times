@@ -1,0 +1,48 @@
+body {
+  background-color: #ebebda;
+  color: #3f3f2f;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 90%;
+}
+
+nav {
+  background-color: #3f3f2f;
+  font-family: "Rubik Mono One", sans-serif;
+  color: #929275;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  border-bottom: 1px dotted;
+}
+
+.searchHere,
+.articlesHolder {
+  margin: 20px;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+input {
+  border: 0px;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #f8f8f6;
+}
+
+.searchButton:hover,
+.clearButton:hover {
+  filter: drop-shadow(8px 10px 8px gray);
+}
+
+.topArticles {
+  background-color: #f8f8f6;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px;
+}
